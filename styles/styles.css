@@ -9,3 +9,32 @@
     --cor_-_fundo_secoes: #EBECEE;
     --cor_-_fundo_cards: #FFFFFF;
 }
+
+body{
+    background-color: var(--cor_-_fundo_secoes);
+}
+
+.cabecalho{
+    background-color: var(--cor_-_fundo_cards);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_menu_hamburguer{
+    background-image: url("../assets/img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.container_cabecalho{
+    display: flex;
+    align-items: center;
+}
+
+.container_imagem{
+    padding: 1em;
+}
