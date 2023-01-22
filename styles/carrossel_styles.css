@@ -9,3 +9,16 @@
     background-color: var(--cor_-_branco_puro);
     padding: 1em 0 0.5em 0;
 }
+
+.carrossel_livros{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+    padding: 0.5em 0;
+}

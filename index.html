@@ -8,8 +8,8 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">    
 
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,32 +36,35 @@
         <a href="#" class="lista_menu_link">Business</a>
         <a href="#" class="lista_menu_link">Design & Ux</a>
     </nav>
+
     <section class="banner">
         <h2 class="banner_titulo">Já sabe por onde começar?</h2>
         <p class="banner_texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner_pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+
     <section class="carrossel">
         <h2 class="carrossel_titulo">Novos Lançamentos</h2>
-            <!-- Slider main container -->
-            <div class="swiper">
+        <!-- Slider main container -->
+        <div class="swiper">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            ...
-            </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
+            
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="/assets/img/Portugol.png" alt="Livro Lógica de programação com Portugol" class="carrossel_livros"></div>
+                <div class="swiper-slide"><img src="/assets/img/Javascript.png" alt="Livro Javascript assertivo" class="carrossel_livros"></div>
+                <div class="swiper-slide"><img src="/assets/img/Guia Front-end.png" alt="Livro Guia Front-End" class="carrossel_livros"></div>
+                <div class="swiper-slide"><img src="/assets/img/Nodejs.png" alt="Livro NodeJS" class="carrossel_livros"></div>
+                <div class="swiper-slide"><img src="/assets/img/ApacheKafka.png" alt="Livro Apache Kafka e Spring Boot" class="carrossel_livros"></div>
+                <div class="swiper-slide"><img src="/assets/img/Liderança.png" alt="Livro Liderança em Design" class="carrossel_livros"></div>
+                <!-- ... -->
+            </div>
         
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-        
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
         </div>
     </section>
 
