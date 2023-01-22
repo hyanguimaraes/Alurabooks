@@ -18,28 +18,7 @@
 <body>
     <header class="cabecalho">
         <div class="container_cabecalho">
-            <input type="checkbox" id="menu" class="container_botao">
-            <label for="menu">
-                <span class="cabecalho_menu_hamburguer"></span>
-            </label>
-            <ul class="lista_menu">
-                <li class="lista_menu_titulo">Categorias</li>
-                <li class="lista_menu_item">
-                    <a href="#" class="lista_menu_link">Programação</a>
-                </li>
-                <li class="lista_menu_item">
-                    <a href="#" class="lista_menu_link">Front-End</a>
-                </li>
-                <li class="lista_menu_item">
-                    <a href="#" class="lista_menu_link">Infraestrutura</a>
-                </li>
-                <li class="lista_menu_item">
-                    <a href="#" class="lista_menu_link">Business</a>
-                </li>
-                <li class="lista_menu_item">
-                    <a href="#" class="lista_menu_link">Design & Ux</a>
-                </li>
-            </ul>
+            <button class="cabecalho_menu_hamburguer" aria-label="Menu"><i></i></button>
             <img src="assets/img/Logo.svg" class="container_imagem" alt="Logo do AluraBooks">
         </div>
         <div class="container_cabecalho">
@@ -48,10 +27,20 @@
             <a href="#"><img src="assets/img/Usuário.svg" class="container_imagem" alt="Meu Perfil"></a>
         </div>
     </header>
+    <nav class="lista_menu">
+        <h2 class="lista_menu_titulo">Categorias</h2>
+        <a href="#" class="lista_menu_link">Programação</a>
+        <a href="#" class="lista_menu_link">Front-End</a>
+        <a href="#" class="lista_menu_link">Infraestrutura</a>
+        <a href="#" class="lista_menu_link">Business</a>
+        <a href="#" class="lista_menu_link">Design & Ux</a>
+    </nav>
     <section class="banner">
         <h2 class="banner_titulo">Já sabe por onde começar?</h2>
         <p class="banner_texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner_pesquisa" placeholder="Qual será sua próxima leitura?">
-    </section>  
+    </section>
+
+    <script src="/js/index.js"></script>
 </body>
 </html>
