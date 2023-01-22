@@ -14,10 +14,12 @@
 
 body{
     background-color: var(--cor_-_branco_acinzentado);
-    font-family: var(--cor_-_preto);
+    font-family: var(--fonte_principal);
     font-size: 16px;
     font-weight: 400;
 }
+
+/*CABECALHO*/
 
 .cabecalho{
     background-color: var(--cor_-_branco_puro);
@@ -82,5 +84,43 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+}
+
+/* BANNER */
+
+.banner{
+    background: var(--gradiente_azul);
+    color: var(--cor_-_branco_puro);
+    text-align: center;
+    padding: 2.5em 2.0em;
+}
+
+.banner_titulo{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.banner_texto{
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.banner_pesquisa{
+    background-color: transparent;
+    border: 1px solid var(--cor_-_branco_puro);
+    color:var(--cor_-_branco_puro);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner_pesquisa::placeholder{
+    font-family: var(--fonte_principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--cor_-_branco_puro);
+    background: url("../assets/img/Pesquisa.svg") no-repeat;
+    background-position: 1em;
+
 }
