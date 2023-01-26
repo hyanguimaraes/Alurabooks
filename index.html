@@ -43,29 +43,51 @@
         <input type="search" class="banner_pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
 
-    <section class="carrossel">
-        <h2 class="carrossel_titulo">Novos Lançamentos</h2>
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+    <section class="container_carrossel_e_card container_lancamentos">
+        <h2 class="secao_titulo">Últimos Lançamentos</h2>
+
+        <section class="carrossel">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="/assets/img/Portugol.png" alt="Livro Lógica de programação com Portugol" class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/Javascript.png" alt="Livro Javascript assertivo" class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/Guia Front-end.png" alt="Livro Guia Front-End" class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/Nodejs.png" alt="Livro NodeJS" class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/ApacheKafka.png" alt="Livro Apache Kafka e Spring Boot" class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/Liderança.png" alt="Livro Liderança em Design" class="carrossel_livros"></div>
+                    <!-- ... -->
+                </div>
             
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="/assets/img/Portugol.png" alt="Livro Lógica de programação com Portugol" class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/Javascript.png" alt="Livro Javascript assertivo" class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/Guia Front-end.png" alt="Livro Guia Front-End" class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/Nodejs.png" alt="Livro NodeJS" class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/ApacheKafka.png" alt="Livro Apache Kafka e Spring Boot" class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/Liderança.png" alt="Livro Liderança em Design" class="carrossel_livros"></div>
-                <!-- ... -->
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-        
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
+        </section>
+
+        <section class="card card_angular">
+            <div class="card_container_superior">
+                <div class="card_textos">
+                        <h2 class="titulo_card">Talvez você também se interesse por...</h2>
+                        <h3 class="subtitulo_card">Angular 11 e Firebase</h3>
+                        <p class="paragrafo_card">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img src="/assets/img/Angular.png" alt="Logo da tecnologia Angular em vermelho em um fundo azul" class="card_logo_angular">
+            </div>
+            <div class="card_container_inferior">
+                <div class="card_icones">
+                    <a href="#"><img src="assets/img/Favoritos.svg" class="container_imagem" alt="Meus Favoritos"></a>
+                    <a href="#"><img src="assets/img/Compras.svg" class="container_imagem" alt="Carrinho de compras"></a>
+                    <a href="#" class="card_saiba_mais">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

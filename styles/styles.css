@@ -1,6 +1,7 @@
 @import url("header_styles.css");
 @import url("banner_styles.css");
 @import url("carrossel_styles.css");
+@import url("card_styles.css");
 
 :root{   
     /*CORES BASE*/
@@ -22,3 +23,14 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+
+.secao_titulo{
+    color: var(--cor_-_amarelo);
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--cor_-_branco_puro);
+    padding: 1em 0 0.5em 0;
+}
+

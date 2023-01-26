@@ -1,0 +1,53 @@
+/*CARTÃO*/
+.card{
+    margin-top: 1em;
+    align-self: center;
+    background-color: var(--cor_-_branco_puro);
+    width: 85vw;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0px 0px 10px 0.2px var(--cor_-_preto);
+}
+
+/*TALVEZ USAR ORDEM E FLEX WRAP PARA RESOLVER PROBLEMA*/
+
+.card_container_superior{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.titulo_card{
+    font-weight: 700;
+    color: var(--cor_-_amarelo);
+}
+
+.subtitulo_card{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--cor_-_azul_escuro);
+    margin: 1em 0;
+}
+
+.paragrafo_card{
+    font-size: 14px;
+}
+
+.card_logo_angular{
+    width: 188px;
+}
+
+.card_container_inferior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_saiba_mais{
+    text-decoration: none;
+    width: 188px;
+    color: var(--cor_-_branco_puro);
+    background-color: var(--cor_-_amarelo);
+    font-weight: 700;
+    padding: 1em;
+}
