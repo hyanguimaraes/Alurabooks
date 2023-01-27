@@ -1,8 +1,10 @@
+/*IMPORTAÇÃO DOS OUTROS ARQUIVOS QUE COMPÕEM O PROJETO*/
 @import url("header_styles.css");
 @import url("banner_styles.css");
 @import url("carrossel_styles.css");
 @import url("card_styles.css");
 
+/*DADOS BASE*/
 :root{   
     /*CORES BASE*/
     --cor_-_azul_escuro: #002F52;
@@ -24,6 +26,7 @@ body{
     font-weight: 400;
 }
 
+/*TÍTULO - COMUM EM VÁRIAS SEÇÕES*/
 .secao_titulo{
     color: var(--cor_-_amarelo);
     font-weight: 700;
@@ -33,4 +36,3 @@ body{
     background-color: var(--cor_-_branco_puro);
     padding: 1em 0 0.5em 0;
 }
-
