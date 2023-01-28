@@ -9,12 +9,15 @@
 Site da empresa fictícia AluraBooks foi criado nas versões _mobile_, _tablet_ e _desktop_, para estudo no curso "HTML & CSS - Responsividade com mobile-first". O projeto foi todo desenvolvido seguindo a metodologia _Mobile first_ e o design no [Figma](https://www.figma.com/file/OUiV77dAZA6Mw7vLRq57Fz/AluraBooks-(Copy) disponibilizado pela [Alura](https://www.alura.com.br/). Este projeto foi um desafio para mim pois eu nunca tinha feito um carrossel antes. Para fazer o carrossel deste projeto usei o [SwiperJS](https://swiperjs.com/get-started#use-swiper-from-cdn). Também foi usado JavaScript para ativar o menu hambúrguer e ativar ou não algumas classes específicas. Além disso, o projeto foi dividido em diversos arquivos para facilitar encontrar trechos específicos de código se necessária alguma refatoração.
 
 ####✅ Versão mobile 📱
+
 ![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_mobile_finalizado.gif)
 
 ####🚧 Versão tablet 📱
+
 ![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_tablet_finalizado.gif)
 
 ####🚧 Versão desktop 🖥️
+
 ![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_desktop_finalizado.gif)
 
 
