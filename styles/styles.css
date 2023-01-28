@@ -20,6 +20,7 @@
     --gradiente_azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     /*FONTE*/
     --fonte_principal: 'Poppins', sans-serif;
+    --fonte_secundaria: 'Josefin Sans', sans-serif;
 }
 
 body{
