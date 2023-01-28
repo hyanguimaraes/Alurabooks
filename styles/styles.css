@@ -3,6 +3,9 @@
 @import url("banner_styles.css");
 @import url("carrossel_styles.css");
 @import url("card_styles.css");
+@import url("topics_styles.css");
+@import url("contact_styles.css");
+@import url("footer_styles.css");
 
 /*DADOS BASE*/
 :root{   
