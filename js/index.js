@@ -9,6 +9,14 @@ botaoMenu.addEventListener('click', ()=> {
     paginacao.classList.toggle('swiper-pagination_menu_ativo')
 });
 
+//MENU CATEGORIAS
+const botaoCategorias = document.querySelector('.cabecalho_opcoes_botao')
+
+botaoCategorias.addEventListener('click', ()=>{
+    menu.classList.toggle('lista_menu_ativo');
+    botaoCategorias.classList.toggle('cabecalho_opcoes_botao_ativo');
+})
+
 //SWIPER
 const swiper = new Swiper('.swiper', {
     spaceBetween: 10,

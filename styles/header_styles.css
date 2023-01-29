@@ -37,6 +37,7 @@
 }
 
 .lista_menu{
+    position: absolute;
     display: flex;
     flex-direction: column;
     background-color: var(--cor_-_branco_puro);
@@ -87,8 +88,17 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .cabecalho{
+        height: 5vh;
+    }
+
     .cabecalho_menu_hamburguer{
         display: none;
+    }
+
+    .container_imagem{
+        padding: 0;
+        margin: 0 1em;
     }
 
     .cabecalho_titulo, .cabecalho_titulo_negrito{
@@ -115,6 +125,30 @@
         color: var(--cor_-_azul_escuro);
         text-align: center;
         margin: 0 2em;
+        text-transform: uppercase;
+    }
+
+    .cabecalho_opcoes_botao{
+        background-color: transparent;
+        border: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: var(--fonte_principal);
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--cor_-_azul_escuro);
+    }
+
+    .cabecalho_opcoes_botao_ativo{
+        height: 5vh;
+        background: var(--gradiente_azul);
+        color: var(--cor_-_branco_puro);
+    }
+
+    .lista_menu_ativo{
+        position: absolute;
+        left: 32.7vw;
+        width: auto;
     }
 
     .cabecalho_opcoes_ancora{

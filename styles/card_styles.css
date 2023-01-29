@@ -66,3 +66,17 @@
     font-weight: 700;
     padding: 1em 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .card{
+        margin: 3em 0;
+    }
+
+    .card_angular, .card_autora{
+        width: 50vw;
+    }
+
+    .card_textos{
+        max-width: 340px;
+    }
+}
