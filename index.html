@@ -37,8 +37,8 @@
         
         <div class="container_cabecalho cabecalho_direito">
             <a href="#" id="container_imagem_favoritos"><img src="assets/img/Favoritos.svg" class="container_imagem" alt="Meus Favoritos"></a>
-            <a href="#"><img src="assets/img/Compras.svg" class="container_imagem" alt="Carrinho de compras"></a>
-            <a href="#"><img src="assets/img/Usuário.svg" class="container_imagem" alt="Meu Perfil"></a>
+            <a href="#" class="imagem_com_texto"><img src="assets/img/Compras.svg" class="container_imagem" alt="Carrinho de compras"><p class="cabecalho_logo_texto">Minha Sacola</p></a>
+            <a href="#" class="imagem_com_texto"><img src="assets/img/Usuário.svg" class="container_imagem" alt="Meu Perfil"><p class="cabecalho_logo_texto">Meu Perfil</p></a>
         </div>
     </header>
     <nav class="lista_menu">
@@ -61,100 +61,104 @@
     <h2 class="secao_titulo">Últimos Lançamentos</h2>
 
     <!-- CARROSSEL -->
-    <section class="carrossel">
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="/assets/img/MEAN.png" alt="Livro MEAN, Full stack JavaScript para aplicações web com MongoDB, Express, Angular e Node" class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/Construct2.png" alt="Livro Construct 2, Crie seu o seu primeiro jogo multiplataforma" class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/UX.png" alt="Livro UX Estratégico, Design aplicado a ecossistema de produtos" class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/ReactNative.png" alt="Livro ReactNative, Desenvolvimento de aplicativos mobile com React." class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/Angular.png" alt="Livro Angular 11 e Firebase, Construíndo uma aplicação integrada com a plataforma do Google." class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/ApacheKafka.png" alt="Livro Apache Kafka e Spring Boot, Comunicação assíncrona entre microsserviços." class="carrossel_livros"></div>
-                <!-- ... -->
-            </div>
-        
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </section>
-
-    <!-- CARD -->
-    <section class="card">
-        <div class="card_angular">
-            <div class="card_container_superior">
-                <div class="card_textos">
-                        <h2 class="titulo_card">Talvez você também se interesse por...</h2>
-                        <h3 class="subtitulo_card">Angular 11 e Firebase</h3>
-                        <p class="paragrafo_card">Construindo uma aplicação integrada com a plataforma do Google.</p>
+    <div class="carrossel_e_card">
+        <section class="carrossel">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="/assets/img/MEAN.png" alt="Livro MEAN, Full stack JavaScript para aplicações web com MongoDB, Express, Angular e Node" class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/Construct2.png" alt="Livro Construct 2, Crie seu o seu primeiro jogo multiplataforma" class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/UX.png" alt="Livro UX Estratégico, Design aplicado a ecossistema de produtos" class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/ReactNative.png" alt="Livro ReactNative, Desenvolvimento de aplicativos mobile com React." class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/Angular.png" alt="Livro Angular 11 e Firebase, Construíndo uma aplicação integrada com a plataforma do Google." class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/ApacheKafka.png" alt="Livro Apache Kafka e Spring Boot, Comunicação assíncrona entre microsserviços." class="carrossel_livros"></div>
+                    <!-- ... -->
                 </div>
-                <img src="/assets/img/Angular_logo.png" alt="Logo da tecnologia Angular em vermelho em um fundo azul" class="card_logo_angular">
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <div class="card_container_inferior">
-                <ul class="card_botoes">
-                    <li class="botoes_item"></li><img src="assets/img/Favoritos.svg" class="container_imagem" alt="Favoritar livro"></li>
-                    <li class="botoes_item"></li><img src="assets/img/Compras.svg" class="container_imagem" alt="Adicionar no carrinho de compras"></li>
-                </ul>
-                    <a href="#" class="card_saiba_mais">Saiba mais</a>
+        </section>
+
+        <!-- CARD -->
+        <section class="card">
+            <div class="card_angular">
+                <div class="card_container_superior">
+                    <div class="card_textos">
+                            <h2 class="titulo_card">Talvez você também se interesse por...</h2>
+                            <h3 class="subtitulo_card">Angular 11 e Firebase</h3>
+                            <p class="paragrafo_card">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <img src="/assets/img/Angular_logo.png" alt="Logo da tecnologia Angular em vermelho em um fundo azul" class="card_logo_angular">
+                </div>
+                <div class="card_container_inferior">
+                    <ul class="card_botoes">
+                        <li class="botoes_item"></li><img src="assets/img/Favoritos.svg" class="container_imagem" alt="Favoritar livro"></li>
+                        <li class="botoes_item"></li><img src="assets/img/Compras.svg" class="container_imagem" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                        <a href="#" class="card_saiba_mais">Saiba mais</a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!-- CARROSSEL + CARD 02 -->
     <h2 class="secao_titulo">Mais vendidos</h2>
 
     <!-- CARROSSEL -->
-    <section class="carrossel">
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="/assets/img/Portugol.png" alt="Livro Lógica de programação com Portugol, mais de 80 exemplos, 55 exercícios com gabarito e vídeos complementares." class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/Javascript.png" alt="Livro Javascript assertivo, testes e qualidade de código em todas as camadas da aplicação." class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/Guia Front-end.png" alt="Livro Guia Front-End, o caminho das pedras para ser um dev Front-End." class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/Nodejs.png" alt="Livro Construindo APIs REST com NodeJS." class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/Gestão2.png" alt="Livro Gestão de produtos, Como aumentar as chances de sucesso do seu software." class="carrossel_livros"></div>
-                <div class="swiper-slide"><img src="/assets/img/Liderança.png" alt="Livro Liderança em Design, habilidades de gestão para alavancar sua carreira." class="carrossel_livros"></div>
-                <!-- ... -->
-            </div>
-        
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </section>
-
-    <!-- CARD -->
-    <section class="card">
-        <div class="card_autora">
-            <div class="card_container_superior">
-                <div class="card_textos">
-                        <img src="/assets/img/Estrelinhas.png" alt="Imagem de cinco estrelas douradas, lado a lado." class="estrelas_card">
-                        <h2 class="titulo_card">Autora do Mês</h2>
-                        <h3 class="subtitulo_card">Juliana Agarikov</h3>
-                        <p class="paragrafo_card">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+    <div class="carrossel_e_card">
+        <section class="carrossel">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="/assets/img/Portugol.png" alt="Livro Lógica de programação com Portugol, mais de 80 exemplos, 55 exercícios com gabarito e vídeos complementares." class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/Javascript.png" alt="Livro Javascript assertivo, testes e qualidade de código em todas as camadas da aplicação." class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/Guia Front-end.png" alt="Livro Guia Front-End, o caminho das pedras para ser um dev Front-End." class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/Nodejs.png" alt="Livro Construindo APIs REST com NodeJS." class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/Gestão2.png" alt="Livro Gestão de produtos, Como aumentar as chances de sucesso do seu software." class="carrossel_livros"></div>
+                    <div class="swiper-slide"><img src="/assets/img/Liderança.png" alt="Livro Liderança em Design, habilidades de gestão para alavancar sua carreira." class="carrossel_livros"></div>
+                    <!-- ... -->
                 </div>
-                <img src="/assets/img/Perfil-escritora 1.png" alt="Logo da tecnologia Angular em vermelho em um fundo azul" class="card_logo_angular">
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <div class="card_container_inferior">
-                <ul class="card_botoes">
-                    <li class="botoes_item"></li><img src="assets/img/Favoritos.svg" class="container_imagem" alt="Favoritar livro"></li>
-                    <li class="botoes_item"></li><img src="assets/img/Compras.svg" class="container_imagem" alt="Adicionar no carrinho de compras"></li>
-                </ul>
-                    <a href="#" class="card_saiba_mais">Saiba mais</a>
+        </section>
+
+        <!-- CARD -->
+        <section class="card">
+            <div class="card_autora">
+                <div class="card_container_superior">
+                    <div class="card_textos">
+                            <img src="/assets/img/Estrelinhas.png" alt="Imagem de cinco estrelas douradas, lado a lado." class="estrelas_card">
+                            <h2 class="titulo_card">Autora do Mês</h2>
+                            <h3 class="subtitulo_card">Juliana Agarikov</h3>
+                            <p class="paragrafo_card">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                    </div>
+                    <img src="/assets/img/Perfil-escritora 1.png" alt="Logo da tecnologia Angular em vermelho em um fundo azul" class="card_logo_angular">
+                </div>
+                <div class="card_container_inferior">
+                    <ul class="card_botoes">
+                        <li class="botoes_item"></li><img src="assets/img/Favoritos.svg" class="container_imagem" alt="Favoritar livro"></li>
+                        <li class="botoes_item"></li><img src="assets/img/Compras.svg" class="container_imagem" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                        <a href="#" class="card_saiba_mais">Saiba mais</a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!-- TÓPICOS -->
     <section class="container_topicos">
@@ -185,7 +189,7 @@
 
     <!-- FOOTER 1024PX-->
     <footer class="container_rodape rodape_desktop">
-        <ul class="rodape_lista">
+        <ul class="rodape_lista rodape_lista_01">
             <h2 class="rodape_titulo">Grupo Alura</h2>
         </ul>
         <ul class="rodape_lista">

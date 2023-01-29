@@ -80,3 +80,21 @@
         max-width: 340px;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .card{
+        margin: 7.25em 0;
+    }
+
+    .card_angular, .card_autora{
+        width: 35vw;
+    }
+
+    .card_textos{
+        max-width: 385px;
+    }
+
+    .titulo_card{
+        font-size: 32px;
+    }
+}

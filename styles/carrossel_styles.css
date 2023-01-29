@@ -29,3 +29,18 @@
         padding: 1.5em 0
     }
 }
+
+@media screen and (min-width: 1728px) {  
+    .swiper{
+        width: 40vw;
+        align-items: center;
+    }
+
+    .carrossel_livros{
+        width: 180px;
+    }
+
+    .swiper-pagination{
+        padding: 3.5em 0 2.5em
+    }
+}

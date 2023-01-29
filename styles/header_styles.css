@@ -28,6 +28,10 @@
     padding: 1em;
 }
 
+.cabecalho_logo_texto{
+    display: none;
+}
+
 .cabecalho_titulo{
     display: none;
 }
@@ -158,5 +162,39 @@
 
     #container_imagem_favoritos{
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .cabecalho{
+        height: 6vh;
+        padding: 0 3em;
+    }
+
+    .cabecalho_opcoes{
+        margin-right: auto;
+    }
+
+    .cabecalho_opcoes_botao_ativo{
+        height: 6vh;
+        background: var(--gradiente_azul);
+        color: var(--cor_-_branco_puro);
+    }
+
+    .lista_menu_ativo{
+        position: absolute;
+        left: 17.4vw;
+        width: auto;
+    }
+
+    .cabecalho_logo_texto{
+        display: flex;
+    }
+
+    .imagem_com_texto{
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        color: var(--cor_-_azul_escuro);
     }
 }
