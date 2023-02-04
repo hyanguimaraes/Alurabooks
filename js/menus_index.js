@@ -1,3 +1,5 @@
+//JAVASCRIPT PARA MENUS
+
 //MENU LATERAL
 const botaoMenu = document.querySelector('.cabecalho_menu_hamburguer');
 const menu = document.querySelector('.lista_menu');
@@ -16,13 +18,3 @@ botaoCategorias.addEventListener('click', ()=>{
     menu.classList.toggle('lista_menu_ativo');
     botaoCategorias.classList.toggle('cabecalho_opcoes_botao_ativo');
 })
-
-//SWIPER
-const swiper = new Swiper('.swiper', {
-    spaceBetween: 10,
-    slidesPerView: 3,
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-      },
-  });

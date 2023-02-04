@@ -1,46 +1,101 @@
 /* CARROSSEL */
-.carrossel_livros{
-    width: 100%;
+
+/*PROPRIEDADES DAS IMAGENS (LIVROS*/
+:root{
+    --carrossel_imagens_altura: 250px;
+    --carrossel_imagens_largura: 175px;
 }
 
-.swiper-button-prev, .swiper-button-next{
-    display: none;
+.carrossel{
+    width: 100vw;
+    height: auto;
+    position: relative;
 }
 
-.swiper-pagination{
-    position: initial;
-    padding: 0.5em 0;
+.carrossel_marcacao{
+    margin: 0.75em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.swiper-pagination_menu_ativo{
-    visibility: hidden;
+input[type="radio"] {
+    appearance: none;
+    background-color: var(--cor_-_cinza_medio);
+    margin: 0 0.5em;
+    font: inherit;
+    color: currentColor;
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--cor_-_azul_escuro);
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+    display: flex;
+    align-items: center;
+  }
+
+  input[type="radio"]::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--cor_-_azul_claro);
+  }
+
+  input[type="radio"]:checked::before {
+    transform: scaleX(1.2);
+  }
+
+.carrossel_corpo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: 3;
 }
 
-@media screen and (min-width: 1024px){
-    .swiper{
-        width: 60vw;
-    }
-
-    .swiper-button-prev, .swiper-button-next{
-        display: block;
-    }
-
-    .swiper-pagination{
-        padding: 1.5em 0
-    }
+.carrossel_slides{
+    transition: 0.5s ease-in-out;
 }
 
-@media screen and (min-width: 1728px) {  
-    .swiper{
-        width: 40vw;
-        align-items: center;
-    }
+.carrossel_imagens{
+    height: var(--carrossel_imagens_altura);
+    width: var(--carrossel_imagens_largura);
+    margin-right: 10px;
+}
 
-    .carrossel_livros{
-        width: 180px;
-    }
+.carrossel_botoes{
+    position: absolute;
+    z-index: 998;
+    width: 100vw;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+}
 
-    .swiper-pagination{
-        padding: 3.5em 0 2.5em
-    }
+.carrossel_botao{
+    font-family: var(--fonte_principal);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cor_-_branco_puro);
+    border-radius: 50%;
+    background-color: var(--cor_-_azul_claro);
+    border: 0;    
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.carrossel_botao:hover{
+    scale: 1.1;
+}
+
+.botao_anterior_01, .botao_anterior_02{
+    margin-left: 10px;
+}
+
+.botao_proximo_01, .botao_proximo_02{
+    margin-right: 10px;
 }

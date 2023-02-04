@@ -63,6 +63,7 @@
 
 .lista_menu_ativo{
     left: 0;
+    z-index: 999;
 }
 
 .lista_menu_titulo{
