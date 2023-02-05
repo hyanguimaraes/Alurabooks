@@ -10,6 +10,7 @@
     width: 100vw;
     height: auto;
     position: relative;
+    overflow: hidden;
 }
 
 .carrossel_marcacao{
@@ -63,7 +64,7 @@ input[type="radio"] {
 .carrossel_imagens{
     height: var(--carrossel_imagens_altura);
     width: var(--carrossel_imagens_largura);
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 .carrossel_botoes{

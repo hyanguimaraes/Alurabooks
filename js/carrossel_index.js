@@ -7,7 +7,7 @@ const slides_01 = document.querySelectorAll('.carrossel_01_slides');
 const slides_02 = document.querySelectorAll('.carrossel_02_slides');
 
 //Largura da imagem do slide + margem direita
-const larguraSlide = 175+10
+const larguraSlide = 175+20
 
 //Contador de slide
 let slideAtual_01 = 0;
