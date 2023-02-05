@@ -1,26 +1,24 @@
 <h1 align="center"> AluraBooks </h1>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_desktop_finalizado.gif#vitrinedev)
+![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_desktop_finalizado_V2.gif#vitrinedev)
 
 ![](https://img.shields.io/github/forks/hyanguimaraes/Alurabooks?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/Alurabooks?style=plastic)
 
 📝 Descrição do projeto
 ---
-Site da empresa fictícia AluraBooks foi criado nas versões _mobile_, _tablet_ e _desktop_, para estudo no curso "HTML & CSS - Responsividade com mobile-first". O projeto foi todo desenvolvido seguindo a metodologia _Mobile first_ e o design no [Figma](https://www.figma.com/file/OUiV77dAZA6Mw7vLRq57Fz/AluraBooks-(Copy)) disponibilizado pela [Alura](https://www.alura.com.br/). Este projeto foi um desafio para mim pois eu nunca tinha feito um carrossel antes. Para fazer o carrossel deste projeto usei o [SwiperJS](https://swiperjs.com/get-started#use-swiper-from-cdn). Também foi usado JavaScript para ativar o menu hambúrguer e ativar ou não algumas classes específicas. Além disso, o projeto foi dividido em diversos arquivos para facilitar encontrar trechos específicos de código se necessária alguma refatoração.
-
-**Meu objetivo agora é remover todo o trecho de código com SwiperJS e fazer o meu próprio carrossel do zero.**
+Site da empresa fictícia AluraBooks foi criado nas versões _mobile_, _tablet_ e _desktop_, para estudo no curso "HTML & CSS - Responsividade com mobile-first". O projeto foi todo desenvolvido seguindo a metodologia _Mobile first_ e o design no [Figma](https://www.figma.com/file/OUiV77dAZA6Mw7vLRq57Fz/AluraBooks-(Copy)) disponibilizado pela [Alura](https://www.alura.com.br/). Este projeto foi um desafio para mim pois eu nunca tinha feito um carrossel antes. Para fazer o carrossel deste projeto, inicialmente foi utilizado o [SwiperJS](https://swiperjs.com/get-started#use-swiper-from-cdn), porém, como houveram conflitos entre a GitHub page e a API (o carrossel não carregava na GitHub page), resolvi fazer meu próprio carrossel usando CSS e JavaScript. Também foi usado JavaScript para ativar o menu hambúrguer e algumas classes específicas. Além disso, o projeto foi dividido em diversos arquivos para facilitar encontrar trechos específicos de código se necessária alguma refatoração.
 
 <h3>✅ Versão mobile 428px 📱</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_mobile_finalizado.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_mobile_finalizado_V2.gif)
 
 <h3>✅ Versão tablet 1024px 📱</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_tablet_finalizado.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_tablet_finalizado_V2.gif)
 
 <h3>✅ Versão desktop 1728px 🖥️</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_desktop_finalizado.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_desktop_finalizado_V2.gif)
 
 
 [🔗 Acesse o projeto](https://hyanguimaraes.github.io/Alurabooks/)
