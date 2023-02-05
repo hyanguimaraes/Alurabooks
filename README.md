@@ -1,6 +1,6 @@
 <h1 align="center"> AluraBooks </h1>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_desktop_finalizado_V2.gif#vitrinedev)
+![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_desktop_finalizado_v2.gif#vitrinedev)
 
 ![](https://img.shields.io/github/forks/hyanguimaraes/Alurabooks?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/Alurabooks?style=plastic)
 
@@ -10,15 +10,15 @@ Site da empresa fictícia AluraBooks foi criado nas versões _mobile_, _tablet_ 
 
 <h3>✅ Versão mobile 428px 📱</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_mobile_finalizado_V2.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_mobile_finalizado_v2.gif)
 
 <h3>✅ Versão tablet 1024px 📱</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_tablet_finalizado_V2.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_tablet_finalizado_v2.gif)
 
 <h3>✅ Versão desktop 1728px 🖥️</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_desktop_finalizado_V2.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/Alurabooks/main/assets/img/readme/Alurabooks_desktop_finalizado_v2.gif)
 
 
 [🔗 Acesse o projeto](https://hyanguimaraes.github.io/Alurabooks/)
